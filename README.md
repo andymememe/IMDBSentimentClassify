@@ -7,3 +7,6 @@ pytho3 train.py
 ```
 
 ## Evaluation
+```sh
+pytho3 evaluation.py
+```
