@@ -1,0 +1,35 @@
+<!doctype html>
+<title>IMDB Sentiment Classify</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<body>
+    <header id="header">
+        <div class="logo">IMDB Sentiment Classify</div>
+    </header>
+    <section id="main">
+        <div class="inner">
+            <header class="major special">
+                <h1>Submit a Comment</h1>
+            </header>
+            <section>
+                <form method="post" action="/submit">
+                    <div class="6u 12u$(xsmall)">
+                        <input type="text" name="comment" id="comment" value="" placeholder="Comment" />
+                    </div>
+                    <br>
+                    <div class="12u$">
+                        <ul class="actions">
+                            <li><input type="submit" value="Send Comment" class="special" /></li>
+                        </ul>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="copyright">
+            &copy; Andymememe. Design: <a href="https://templated.co">TEMPLATED</a>.
+        </div>
+    </footer>
+</body>
